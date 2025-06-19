@@ -1,44 +1,41 @@
-# ✅ Exercise 1: Implementing the Singleton Pattern
+# ✅ Exercise 1: Implementing the Singleton Pattern (C#)
 
-## 📘 Objective
-	Implement a logging utility class in Java using the **Singleton Design Pattern**
-	to ensure only **one instance** is used throughout the application for consistent behavior.
+## 📘 Objective  
+Implement a logging utility using the Singleton Design Pattern in **C#**, ensuring that only one instance of the logger class is used across the application to maintain consistent state.
 
 ---
 
 ## 📁 Files Included
 
-	- `Logger.java` — Implements the Singleton class.
-	- `LoggerTest.java` — Tests and demonstrates Singleton behavior.
+- **Logger.cs** — Contains the Singleton class responsible for managing user credentials.
+- **LoggerTest.cs** — Contains the main entry point and tests the singleton behavior using the logger instance.
 
 ---
 
 ## 🧱 How It Works
 
-### 🔹 Logger.java
-	- Defines a Singleton class called `Logger`.
-	- Uses a **private static variable** `instance` to store the single object.
-	- Has a **private constructor** to prevent creating new instances.
-	- Provides a `public static Logger getLogger()` method to return the same object each time.
-	- Contains:
-		- `setCredentials(String username, String password)` — to set user info.
-		- `printCredentials()` — to print stored credentials.
+### 🔹 Logger.cs  
+This class implements the Singleton Pattern by:
+- Declaring a private static variable to store the single instance.
+- Using a private constructor to prevent external object creation.
+- Providing a static method to access the single instance.
+- Including methods to set and print user credentials.
 
-### 🔹 LoggerTest.java
-	- Calls `Logger.getLogger()` twice to get `logA` and `logB`.
-	- Compares both objects using `==` to prove they're the **same instance**.
-	- Sets different credentials using both references.
-	- Prints credentials from both to show they **share the same internal state**.
+### 🔹 Program.cs  
+This class tests the Singleton implementation by:
+- Creating two references via the static method.
+- Verifying both references point to the same object.
+- Setting and printing credentials through each reference to show that state is shared.
 
 ---
 
-## 🖼️ Code & Output Screenshot
+## 🖼️ Code Screenshot
 
-📌 *Image from VS Code terminal showing Singleton test run:*
- 
-![alt text](image.png)
+📌 *Image from VS Code Community terminal showing Singleton code :*
+![Singleton Logger code ](image-2.png)
 
----
+## 🖼️ Output Screenshot
 
-## 📤 Sample Output
-![alt text](image-1.png)
+📌 Below is a screenshot of the terminal output verifying the singleton behavior:
+
+![Singleton Logger Output with code - C#](image-3.png)
