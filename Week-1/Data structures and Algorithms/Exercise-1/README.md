@@ -1,1 +1,1 @@
-Details of exercise-1 
+Details of exercise-1
