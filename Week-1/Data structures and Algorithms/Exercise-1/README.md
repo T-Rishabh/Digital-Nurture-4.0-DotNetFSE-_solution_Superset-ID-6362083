@@ -70,5 +70,4 @@ This class runs the implementation by:
 
 ---
 
-## 💬 Sample Output
 
