@@ -1,4 +1,4 @@
-# 💻 E-Commerce Product Search using Linear and Binary Search in **C#**
+# 💻 Exercise 1 (Question-2) :E-Commerce Product Search using Linear and Binary Search in **C#**
 
 Implement a product search utility using **Linear Search** and **Binary Search** in **C#**, ensuring performance comparison via execution time. This simulation models a product search feature in an e-commerce platform.
 
