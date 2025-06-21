@@ -50,7 +50,7 @@ This class runs the implementation by:
 ## 📸 Code Screenshot
 
 📌 *Image from VS Code terminal showing product search implementation in C#:*
-![Product Search Code](image-2.png)
+![Product Search Code](image.png)
 
 ---
 
