@@ -50,14 +50,14 @@ This class runs the implementation by:
 ## 📸 Code Screenshot
 
 📌 *Image from VS Code terminal showing product search implementation in C#:*
-![Product Search Code](!(image.png))
+![Product Search Code](image-2.png)
 
 ---
 
 ## 🖥 Output Screenshot
 
 📌 Below is a screenshot of the terminal output verifying the search results and performance:
-![Product Search Output](!(image-1.png))
+![Product Search Output](image-3.png)
 
 ---
 
