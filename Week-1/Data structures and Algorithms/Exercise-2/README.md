@@ -50,7 +50,7 @@ A simple loop is used to calculate growth year by year, which is more efficient 
 
 📌 *VS Code preview showing recursive and iterative forecasting logic:*
 
-    ![alt text](image.png)
+![alt text](image.png)
 
 ---
 
@@ -58,7 +58,7 @@ A simple loop is used to calculate growth year by year, which is more efficient 
 
 📌 *Sample terminal output showing forecast results and comparison:*
 
-    ![alt text](image-1.png)
+![alt text](image-1.png)
 
 ---
 
