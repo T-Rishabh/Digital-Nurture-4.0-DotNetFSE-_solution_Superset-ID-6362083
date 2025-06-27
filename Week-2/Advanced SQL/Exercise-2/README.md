@@ -1,4 +1,4 @@
-# ✅ Exercise 2: Stored Procedure – Insert Employee 
+# ✅ Exercise 2: Stored Procedure(EX-1) – Insert Employee 
 
 ## 📘 Objective  
    Create a reusable stored procedure in **SQL Server** to insert employee records  
