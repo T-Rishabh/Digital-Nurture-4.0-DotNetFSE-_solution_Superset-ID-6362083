@@ -1,7 +1,7 @@
 # ✅ Exercise 1: Ranking and Window Functions in SQL
 
 ## 📘 Objective  
-	Develop a query-based financial report system using **SQL Server** that applies **window functions**  
+Develop a query-based financial report system using **SQL Server** that applies **window functions**  
 	like `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()` to rank products based on price  
 	within their categories — without modifying core data logic.
 
@@ -9,7 +9,7 @@
 
 ## 📁 Files Included
 
-	- `Exercise1_RankingFunctions.sql` — SQL script that:
+`Exercise1_RankingFunctions.sql` — SQL script that:
 		▪ Creates and populates the `Products` table.
 		▪ Applies 3 different ranking window functions.
 		▪ Filters and displays the top 3 products per category based on price.
@@ -32,14 +32,14 @@
 ## 🧱 How It Works
 
 ### 🔹 Table Setup  
-	The `Products` table is populated with 15 products from 3 categories:
+The `Products` table is populated with 15 products from 3 categories:
 		▪ Electronics  
 		▪ Appliances  
 		▪ Groceries
 
 ### 🔹 SQL Logic Flow
 
-	1. Window Functions Used:
+1. Window Functions Used:
 
 		| Function      | Description                                         |
 		|---------------|-----------------------------------------------------|
