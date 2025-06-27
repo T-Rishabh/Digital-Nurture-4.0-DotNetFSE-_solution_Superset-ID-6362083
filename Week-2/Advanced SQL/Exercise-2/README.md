@@ -8,7 +8,7 @@
 
 ## 📁 Files Included
 
-	- `Exercise2_InsertEmployee.sql` — SQL script that:
+- `Exercise2_InsertEmployee.sql` — SQL script that:
 		▪ Drops and recreates the `Departments` and `Employees` tables
 		▪ Inserts sample data into both tables
 		▪ Defines the stored procedure `sp_InsertEmployee`
@@ -50,7 +50,7 @@
 
 ### 🔹 Stored Procedure Logic
 
-	1. Procedure: `sp_InsertEmployee`
+1. Procedure: `sp_InsertEmployee`
 		▪ Accepts input parameters:
 			- `@FirstName`
 			- `@LastName`
