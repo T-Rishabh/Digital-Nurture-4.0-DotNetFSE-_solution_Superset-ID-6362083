@@ -1,14 +1,14 @@
 # ✅ Exercise 3: Stored Procedure(EX-5) – Count Employees by Department
 
 ## 📘 Objective  
-	Create a stored procedure in **SQL Server** that returns the total number of employees  
+Create a stored procedure in **SQL Server** that returns the total number of employees  
 	in a specified department using the `COUNT(*)` function.
 
 ---
 
 ## 📁 Files Included
 
-	- `Exercise5_CountEmployees.sql` — SQL script that:
+- `Exercise5_CountEmployees.sql` — SQL script that:
 		▪ Drops existing procedure if it exists
 		▪ Defines the stored procedure `sp_CountEmployeesByDepartment`
 		▪ Returns employee count for the given DepartmentID
@@ -35,7 +35,7 @@
 
 ### 🔹 Stored Procedure Logic
 
-	▪ Name: sp_CountEmployeesByDepartment
+▪ Name: sp_CountEmployeesByDepartment
 	▪ Accepts: @DepartmentID (INT)
 	▪ Uses COUNT(*) to count all employees in the given department
 	▪ Returns a single result row with alias: TotalEmployees
