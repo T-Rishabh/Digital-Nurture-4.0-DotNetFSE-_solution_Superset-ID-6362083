@@ -26,7 +26,7 @@ Best practices like `SetUp`, `TestFixture`, `Mock`, and assertion-based validati
 ---
 
 ## 🧾 Class Summary
-
+```
 +------------------------+----------------------------------------------------+
 | Class / Method        | Description                                         |
 +------------------------+----------------------------------------------------+
@@ -36,7 +36,7 @@ Best practices like `SetUp`, `TestFixture`, `Mock`, and assertion-based validati
 | SendMailToCustomer()  | Calls SendMail with fixed data and returns true     |
 | CustomerCommTests     | Tests CustomerComm using Moq                        |
 +------------------------+----------------------------------------------------+
-
+```
 ---
 
 
@@ -53,18 +53,17 @@ Best practices like `SetUp`, `TestFixture`, `Mock`, and assertion-based validati
 ### 🔹 Test Logic Flow
 
 1. **Test Methods:**
-
+```
 +---------------------------------------------+-------------------------------+
 | Test Method                                 | Description                   |
 +---------------------------------------------+-------------------------------+
 | SendMailToCustomer_WhenCalled_ReturnsTrue   | Verifies return from mock     |
 +---------------------------------------------+-------------------------------+
 
----
+```
 
 ## 🛠️ Setup Instructions
 
-```bash
  1. Open the solution in Visual Studio
 MoqMailSolution.sln
 
@@ -82,6 +81,7 @@ Install-Package Microsoft.NET.Test.Sdk
  Test → Test Explorer → Click "Run All" to execute all unit tests
 
 ---
+
 
 ## 🖼️ Code Screenshot  
 📌 *Test method in Visual Studio:* 
