@@ -1,14 +1,14 @@
 # ✅ Exercise 4: Stored Procedure – Update Employee Salary
 
 ## 📘 Objective  
-	Create a stored procedure in **SQL Server** that allows updating  
+Create a stored procedure in **SQL Server** that allows updating  
 	an employee’s salary using input parameters.
 
 ---
 
 ## 📁 Files Included
 
-	- `Exercise4_UpdateEmployeeSalary.sql` — SQL script that:
+- `Exercise4_UpdateEmployeeSalary.sql` — SQL script that:
 		▪ Defines procedure `sp_UpdateEmployeeSalary`  
 		▪ Accepts EmployeeID and new salary as parameters  
 		▪ Executes an `UPDATE` query on the `Employees` table  
