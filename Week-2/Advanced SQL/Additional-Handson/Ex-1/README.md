@@ -1,7 +1,7 @@
 # ✅ Index Optimization Exercises in SQL Server
 
 ## 📘 Objective  
-	Implement index optimization in SQL Server by using:
+Implement index optimization in SQL Server by using:
 	▪ Non-clustered index  
 	▪ Clustered (replaced with non-clustered due to PK)  
 	▪ Composite index  
@@ -11,7 +11,7 @@
 
 ## 📁 Files Included
 
-	- `Exercise_Indexing.sql` — SQL script that:
+- `Exercise_Indexing.sql` — SQL script that:
 		▪ Creates and populates tables: Customers, Products, Orders, OrderDetails  
 		▪ Implements 3 index optimization exercises:
 			1. Non-clustered index on `ProductName`
@@ -55,10 +55,12 @@
 
 ## 📤 Output Screenshot
 📌 *SSMS output screenshot:* 
-    *OUTPUT-1*
+    
+*OUTPUT-1*
     *Before*
-    ![alt text](<WhatsApp Image 2025-06-29 at 17.19.03_02522603.jpg>)
-    *After*
+    <br>
+ ![alt text](<WhatsApp Image 2025-06-29 at 17.19.03_02522603.jpg>)
+    <br>*After*<br>
     ![alt text](<WhatsApp Image 2025-06-29 at 17.19.42_c2d47d5a.jpg>)
     *OUTPUT-2*
     *Before*
