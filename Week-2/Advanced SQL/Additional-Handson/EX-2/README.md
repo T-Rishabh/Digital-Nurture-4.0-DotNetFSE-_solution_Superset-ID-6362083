@@ -1,14 +1,14 @@
 # ✅ Exercise: Scalar Function – Calculate Annual Salary
 
 ## 📘 Objective  
-	Create a user-defined scalar function in **SQL Server**  
+Create a user-defined scalar function in **SQL Server**  
 	that calculates the annual salary from the monthly salary of an employee.
 
 ---
 
 ## 📁 Files Included
 
-	- `Exercise_Function_AnnualSalary.sql` — SQL script that:
+- `Exercise_Function_AnnualSalary.sql` — SQL script that:
 		▪ Creates `Departments` and `Employees` tables  
 		▪ Inserts sample data  
 		▪ Defines the scalar function `fn_CalculateAnnualSalary`  
@@ -55,11 +55,13 @@ AS
 BEGIN
     RETURN @Salary * 12;
 END;
+```
 ---
 ## 🖼️ Code Screenshot
 📌 *CODE VIEW*
    ![alt text](<WhatsApp Image 2025-06-29 at 18.14.03_a77022b5.jpg>)
-
+---
 ## 📤 Output Screenshot
 📌 *SSMS output screenshot:* 
 ![alt text](<WhatsApp Image 2025-06-29 at 18.13.26_793053b8.jpg>)
+---
