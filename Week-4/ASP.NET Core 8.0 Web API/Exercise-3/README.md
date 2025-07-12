@@ -28,7 +28,7 @@ This project demonstrates how to build a custom Web API using **Swagger UI integ
 ---
 
 ## 📁 Project Structure
-
+```
 WebApiDemo/
 ├── Controllers/
 │   ├── EmployeeController.cs
@@ -44,7 +44,7 @@ WebApiDemo/
 │   └── launchSettings.json
 ├── Program.cs
 ├── appsettings.json
-
+```
 ---
 
 
