@@ -27,7 +27,6 @@ namespace WebApiDemo.Controllers
                     },
                     DateOfBirth = new DateTime(1990, 1, 1)
                 }
-                // Add more employees if needed
             };
         }
 
@@ -61,7 +60,7 @@ namespace WebApiDemo.Controllers
             if (existing == null)
                 return BadRequest("Invalid employee id");
 
-            // Update fields
+      
             existing.Name = emp.Name;
             existing.Salary = emp.Salary;
             existing.Permanent = emp.Permanent;
