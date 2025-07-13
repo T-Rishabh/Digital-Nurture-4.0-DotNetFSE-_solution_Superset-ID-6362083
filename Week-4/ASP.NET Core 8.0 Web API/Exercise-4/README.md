@@ -56,7 +56,7 @@ WebApiDemo/
 ![alt text](<WhatsApp Image 2025-07-13 at 14.54.21_abe67c0d.jpg>)
 ![alt text](<WhatsApp Image 2025-07-13 at 15.06.48_125370e0.jpg>)
 
-### **Post UI Screenshot**
+### **Postman UI Screenshot**
 ![alt text](<WhatsApp Image 2025-07-13 at 15.31.55_cd92ff76.jpg>)
 ---
 
