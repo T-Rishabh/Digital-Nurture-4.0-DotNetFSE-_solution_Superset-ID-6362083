@@ -111,6 +111,7 @@ myfirstreact/
 ## 🖼️ Code Screenshot
 📌 *Screenshot of Visual Studio:* 
 ![alt text](image.png)
-
+---
 ## 📤 Output Screenshot
 ![alt text](image-1.png)
+---
