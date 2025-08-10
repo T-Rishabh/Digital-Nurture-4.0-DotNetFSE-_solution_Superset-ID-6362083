@@ -1,4 +1,4 @@
-# 🖥️ Git Hands-On Lab — Assignment 1
+# 🖥️ Git Hands-On Lab - 1
 
 ## 🎯 Objectives
 - Learn and practice Git commands:
